@@ -1,0 +1,23 @@
+{% load static %}
+<html>
+<head>
+  <title>RentIt</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'css/w3.css' %}">
+</head>
+<body>
+  <img src="{% static "images/RentIt-logos_wide.jpg" %}" style="vertical-align: middle; width: 100%;">
+  <div class="w3-display-container" style="height:400px;">
+    <div class="w3-display-middle">
+
+  <form class="w3-container w3-center" action="/customer_portal/login/" method="POST">{% csrf_token %}
+    <input class="login-button" type="submit" value="Customer Login">
+  </form>
+<br><br><br>
+  <form class="w3-container w3-center" action="/car_dealer_portal/login/" method="POST">{% csrf_token %}
+    <input class="login-button" type="submit" value="&nbsp;&nbsp;Dealer Login&nbsp;&nbsp;">
+  <form>
+  </div>
+</div>
+<body>
+</html>
