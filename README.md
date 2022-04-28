@@ -21,7 +21,7 @@ XAMPP installed in the desktop
 11. Initiate a server to run the project : python manage.py runserver
 12. Copy the url provided in the command/powershell window and paste it in a browser(Use incognito to prevent caches being stored)
 
-To create admin login for 'Django admin panel', type : python manage.py createsuperuser <br/>
+To create admin login for 'Django admin panel', type : python manage.py createsuperuser (After Step 10)<br/>
 The admin panel can be accessed through URL/admin (Eg.: http://127.0.0.1:8000/admin )
 
 **Recommended versions :**
